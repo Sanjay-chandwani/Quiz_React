@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.LoginDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../public/images/Quiz_images/loginBG.jpg");
+  height: calc(100vh - 74px);
+  /* width: 100vw; */
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.LoginDiv form{
+  width: 30%;
+    height: 53%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+ 
+  display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 29, 49,0.8);
+    padding: 2rem;
+}
+
+
+
+/* Styles for the input elements */
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the Login button */
+button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0077ff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0066cc;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 13px;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+.register-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #002B5B;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  width: 41%;
+}
+
+.register-form {
+  color: #F5EBEB;
+}
+
+.register-form input,
+select,
+textarea {
+  color: #fff;
+}
+
+.register-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f3f3f3;
+  background-color: #000;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+
+.questionDiv {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  color: wheat;
+  background-color: #181D31;
+  border-radius: 10px;
+}
+
+.questions-options {
+  list-style: none;
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.questions-options li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+}
+
+.questions-options label {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  color: black;
+  margin-left: 10px;
+
+}
+
+.questions-options label:hover {
+  background-color: #f2f2f2;
+}
+
+
+.register-form-container {
+  background-color: #EA5455;
+}
+
+.questionDivParent {
+  background-image: url(../../public/images/Quiz_images/quizBG.jpg);
+  height: calc(100vh - 73px);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
